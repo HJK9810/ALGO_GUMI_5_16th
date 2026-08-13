@@ -3,7 +3,7 @@ def check_count(end, target):
     right = end
     count = 0
 
-    while True:
+    while left < right:
         center = (left + right) // 2
         if center < target:
             left = center
